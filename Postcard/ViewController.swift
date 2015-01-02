@@ -28,6 +28,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func sendMessageButtonPressed(sender: AnyObject) {
+        // add coments to test git commit
         messageLabel.hidden=false;
         messageLabel.text=enterMessageTextField.text
         messageLabel.textColor=UIColor.redColor();
